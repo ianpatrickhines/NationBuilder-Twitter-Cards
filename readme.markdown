@@ -23,4 +23,4 @@ To add this functionality to your custom theme:
 
 5. Tweet links from your site and see awesome, beautifully formatted Twitter cards.
 
-*Note: Twitter cards will only display for pages for which you have explicitly set an "Excerpt" in your page's SEO settings. [To learn more about how to configure your page's SEO settings in NationBuilder, read this FAQ](http://nationbuilder.com/how_do_i_change_the_excerpt_shown_on_facebook_for_my_pages).
+*Note: Twitter cards will only display for pages for which you have explicitly set an "Excerpt" in your page's SEO settings. [To learn more about how to configure your page's SEO settings in NationBuilder, read this FAQ](http://nationbuilder.com/how_do_i_change_the_excerpt_shown_on_facebook_for_my_pages).*

@@ -1,0 +1,8 @@
+{% if page.features_count > 0 %}<meta name="twitter:card" content="summary_large_image">{% else %}
+<meta name="twitter:card" content="summary">{% endif %}
+{% if site.has_twitter? %}<meta name="twitter:site" content="@{{ site.broadcaster.twitter_login }}">{% endif %}
+<meta name="twitter:title" content="{{ page.headline }}">
+{% if site.has_twitter? %}{% if page_type == 'Blog Post' %}{% if page.has_author? and page.author.has_twitter_info? %}<meta name="twitter:creator" content="@{{ page.author.twitter_login }}">{% endif %}{% endif %}{% endif %}
+{% if page.features_count > 0 %}{% for feature in page.features limit:1 %}<meta name="twitter:image:src" content="{{ feature.image_url }}">{% endfor %}{% elsif page.has_meta_image? %}<meta name="twitter:image:src" content="{{ page.meta_image_medium_url }}">{% else %}{% endif %}
+<meta name="twitter:domain" content="{{ site.url }}">
+<meta name="twitter:description" content="{{ page.excerpt }}">

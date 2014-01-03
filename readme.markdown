@@ -13,9 +13,9 @@ License: The MIT License (MIT) (See [LICENSE.markdown](https://github.com/ianpat
 
 To add this functionality to your custom theme:
 
-1. Download the _twitter_card.html file in this repository and add it to your NationBuilder theme.
+1. Download the `_twitter_card.html` file in this repository and add it to your NationBuilder theme.
 
-2. Add `{% include "twitter_cards" %}` in the `<head>` section of your _layout.html template.
+2. Add `{% include "twitter_cards" %}` in the `<head>` section of your `_layout.html` template.
 
 3. Save & Publish the changes to your theme.
 

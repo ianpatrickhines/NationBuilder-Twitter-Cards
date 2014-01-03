@@ -5,7 +5,7 @@ Created by Ian Patrick Hines
 
 Original: [ianpatrickhines.com](http://ianpatrickhines.com)
 
-License: The MIT License (MIT) (See [LICENSE.markdown](https://github.com/ianpatrickhines/ianpatrickhines-5290cb6101925b1303000002/blob/master/LICENSE.markdown))
+License: The MIT License (MIT) (See [LICENSE.markdown](https://github.com/ianpatrickhines/NationBuilder-Twitter-Cards/blob/master/LICENSE.markdown))
 
 **NationBuilder Twitter Cards** is a liquid partial template for NationBuilder website themes that enables them to dynamically support [Twitter Cards](https://dev.twitter.com/docs/cards). 
 
